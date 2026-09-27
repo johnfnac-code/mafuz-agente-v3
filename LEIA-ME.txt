@@ -1,0 +1,8 @@
+Arquivos para o SITE (não para o agente):
+
+_redirects  -> coloque na pasta "public/" do projeto do site (Netlify).
+               Sem ele, links como mafuz.com.br/imovel/... dão "página não encontrada"
+               quando abertos direto do WhatsApp.
+
+.htaccess   -> só se o site for publicado por FTP na hospedagem da 909 (Apache).
+               Vai na raiz, junto do index.html.
